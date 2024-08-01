@@ -12,11 +12,14 @@ Digging into an online retail dataset to figure out customer habits who’s stay
 
 ## Some Pics
 - Sales trend: ![Sales Plot](plots/sales_over_time.png)
-   *Shows sales spiking late 2011—holiday rush, maybe?*
+   *Shows sales spiking late 2011 maybe due holidays.*
 - Clusters: ![Cluster Scatter](plots/cluster_scatter.png)
-   *Groups customers by Recency and spend—VIPs vs. drop-offs!*
+   *Groups customers by Recency and spend VIPs vs drop-offs!*
 - What matters: ![Feature Importance](plots/feature_importance.png)
-   *Recency rules churn—biggest clue someone’s leaving
+   *Recency rules churn biggest clue someone’s leaving*
 
-### What We Got Done
-I took a raw e-commerce dataset and made it tell a story—cleaned it up, found sales spikes and big markets, grouped customers into 4 types, predicted who’s leaving (about 20%), and figured Recency’s key. Ended up with solid tips like loyalty perks and re-engagement emails. Pretty neat payoff!
+## Project Highlights
+Through this “Ecommerce Customer Analytics” project, I turned a raw, messy dataset into actionable insights over three months. I cleaned up 500k+ rows of sales data, built RFM scores, and found four customer types—like loyal VIPs (frequent, high-spending) and at-risk one-timers (inactive, low-spending). My Random Forest model predicted churn with an 85% ROC-AUC, pinpointing Recency as the top driver—20% of customers are at risk! Sales peak late-year (holiday boost!), and the UK dominates revenue. I delivered business ideas—loyalty perks for VIPs, re-engagement discounts for drop-offs—showing end-to-end analytics skills from data wrangling to modeling.
+
+## Project Journey
+This project was my dive into e-commerce data. Starting December 2024, I hit hurdles—like missing openpyxl throwing errors (fixed with a quick install) and scaling RFM wrong at first (caught it with describe()). Cleaning 135k rows of missing IDs was a slog, and picking four clusters took some elbow-plot guesswork. My churn model leaned heavy on Recency maybe too much but hit 85% accuracy. Finally, I had a polished GitHub repo with plots and insights, proving I can wrestle data into real-world value!
